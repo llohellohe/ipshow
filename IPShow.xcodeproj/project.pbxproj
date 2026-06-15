@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0000001000000000000A001 /* IPShowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000001000000000000A001 /* IPShowApp.swift */; };
+		B0000002000000000000A001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000002000000000000A001 /* ContentView.swift */; };
+		B0000003000000000000A001 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000003000000000000A001 /* Channel.swift */; };
+		B0000004000000000000A001 /* IPSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000004000000000000A001 /* IPSnapshot.swift */; };
+		B0000005000000000000A001 /* IPRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000005000000000000A001 /* IPRecord.swift */; };
+		B0000006000000000000A001 /* IPDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000006000000000000A001 /* IPDetectionService.swift */; };
+		B0000007000000000000A001 /* GeoLookupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000007000000000000A001 /* GeoLookupService.swift */; };
+		B0000008000000000000A001 /* LocalInterfaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000008000000000000A001 /* LocalInterfaceService.swift */; };
+		B0000009000000000000A001 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000009000000000000A001 /* DashboardViewModel.swift */; };
+		B000000A000000000000A001 /* ChannelCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000000A000000000000A001 /* ChannelCardView.swift */; };
+		B000000B000000000000A001 /* LocalInterfacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000000B000000000000A001 /* LocalInterfacesView.swift */; };
+		B000000C000000000000A001 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000000C000000000000A001 /* HistoryListView.swift */; };
+		B000000D000000000000A001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F000000D000000000000A001 /* Assets.xcassets */; };
+		B000000E000000000000A001 /* GeoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000011000000000000A001 /* GeoProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0000001000000000000A001 /* IPShowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPShowApp.swift; sourceTree = "<group>"; };
+		F0000002000000000000A001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0000003000000000000A001 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		F0000004000000000000A001 /* IPSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPSnapshot.swift; sourceTree = "<group>"; };
+		F0000005000000000000A001 /* IPRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPRecord.swift; sourceTree = "<group>"; };
+		F0000006000000000000A001 /* IPDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDetectionService.swift; sourceTree = "<group>"; };
+		F0000007000000000000A001 /* GeoLookupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLookupService.swift; sourceTree = "<group>"; };
+		F0000008000000000000A001 /* LocalInterfaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalInterfaceService.swift; sourceTree = "<group>"; };
+		F0000009000000000000A001 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F000000A000000000000A001 /* ChannelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCardView.swift; sourceTree = "<group>"; };
+		F000000B000000000000A001 /* LocalInterfacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalInterfacesView.swift; sourceTree = "<group>"; };
+		F000000C000000000000A001 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		F000000D000000000000A001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F000000E000000000000A001 /* IPShow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IPShow.entitlements; sourceTree = "<group>"; };
+		F000000F000000000000A001 /* IPShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0000010000000000000A001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0000011000000000000A001 /* GeoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		S0000002000000000000A001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G0000000000000000000A001 = {
+			isa = PBXGroup;
+			children = (
+				G0000001000000000000A001 /* IPShow */,
+				G0000006000000000000A001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G0000001000000000000A001 /* IPShow */ = {
+			isa = PBXGroup;
+			children = (
+				F0000001000000000000A001 /* IPShowApp.swift */,
+				F0000002000000000000A001 /* ContentView.swift */,
+				G0000002000000000000A001 /* Models */,
+				G0000003000000000000A001 /* Services */,
+				G0000004000000000000A001 /* ViewModels */,
+				G0000005000000000000A001 /* Views */,
+				F000000D000000000000A001 /* Assets.xcassets */,
+				F000000E000000000000A001 /* IPShow.entitlements */,
+				F0000010000000000000A001 /* Info.plist */,
+			);
+			path = IPShow;
+			sourceTree = "<group>";
+		};
+		G0000002000000000000A001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0000003000000000000A001 /* Channel.swift */,
+				F0000004000000000000A001 /* IPSnapshot.swift */,
+				F0000005000000000000A001 /* IPRecord.swift */,
+				F0000011000000000000A001 /* GeoProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G0000003000000000000A001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F0000006000000000000A001 /* IPDetectionService.swift */,
+				F0000007000000000000A001 /* GeoLookupService.swift */,
+				F0000008000000000000A001 /* LocalInterfaceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G0000004000000000000A001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0000009000000000000A001 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G0000005000000000000A001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F000000A000000000000A001 /* ChannelCardView.swift */,
+				F000000B000000000000A001 /* LocalInterfacesView.swift */,
+				F000000C000000000000A001 /* HistoryListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G0000006000000000000A001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F000000F000000000000A001 /* IPShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T0000001000000000000A001 /* IPShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0000002000000000000A001 /* Build configuration list for PBXNativeTarget "IPShow" */;
+			buildPhases = (
+				S0000001000000000000A001 /* Sources */,
+				S0000002000000000000A001 /* Frameworks */,
+				S0000003000000000000A001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPShow;
+			productName = IPShow;
+			productReference = F000000F000000000000A001 /* IPShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P0000001000000000000A001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T0000001000000000000A001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C0000001000000000000A001 /* Build configuration list for PBXProject "IPShow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G0000000000000000000A001;
+			productRefGroup = G0000006000000000000A001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T0000001000000000000A001 /* IPShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		S0000003000000000000A001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B000000D000000000000A001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S0000001000000000000A001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0000001000000000000A001 /* IPShowApp.swift in Sources */,
+				B0000002000000000000A001 /* ContentView.swift in Sources */,
+				B0000003000000000000A001 /* Channel.swift in Sources */,
+				B0000004000000000000A001 /* IPSnapshot.swift in Sources */,
+				B0000005000000000000A001 /* IPRecord.swift in Sources */,
+				B0000006000000000000A001 /* IPDetectionService.swift in Sources */,
+				B0000007000000000000A001 /* GeoLookupService.swift in Sources */,
+				B0000008000000000000A001 /* LocalInterfaceService.swift in Sources */,
+				B0000009000000000000A001 /* DashboardViewModel.swift in Sources */,
+				B000000A000000000000A001 /* ChannelCardView.swift in Sources */,
+				B000000B000000000000A001 /* LocalInterfacesView.swift in Sources */,
+				B000000C000000000000A001 /* HistoryListView.swift in Sources */,
+				B000000E000000000000A001 /* GeoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0000003000000000000A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0000004000000000000A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C0000005000000000000A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IPShow/IPShow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = IPShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangqi.IPShow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0000006000000000000A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IPShow/IPShow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = IPShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangqi.IPShow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0000001000000000000A001 /* Build configuration list for PBXProject "IPShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000003000000000000A001 /* Debug */,
+				C0000004000000000000A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0000002000000000000A001 /* Build configuration list for PBXNativeTarget "IPShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000005000000000000A001 /* Debug */,
+				C0000006000000000000A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P0000001000000000000A001 /* Project object */;
+}
